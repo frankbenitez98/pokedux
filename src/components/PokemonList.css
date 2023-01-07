@@ -1,0 +1,12 @@
+.PokemonList{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, 240px);
+   gap: 26px;
+   place-content: center;
+   padding-top: 15px;
+}
+@media (max-width: 640px) {
+   .PokemonList {
+      grid-template-columns: repeat(auto-fill, 140px);
+   }
+}
